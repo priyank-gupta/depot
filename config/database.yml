@@ -24,8 +24,8 @@ test:
   reconnect: false
   database: priyank_depot_test
   pool: 5
-  username: root
-  password:
+  username: priyank
+  password:	priyank
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -34,6 +34,6 @@ production:
   reconnect: false
   database: priyank_depot_production
   pool: 5
-  username: root
-  password:
+  username: priyank
+  password:	priyank
   socket: /var/run/mysqld/mysqld.sock
